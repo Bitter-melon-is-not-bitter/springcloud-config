@@ -1,0 +1,15 @@
+﻿spring:
+  profiles:
+    active:
+    - dev
+---
+spring:
+  profiles: dev   #开发环境
+  application:
+    name: cloudservice-config-tang-dev
+---
+spring:
+  profiles: test  #测试环境
+  application:
+    name: cloudservice-config-tang-test
+#请保存为UTF-8格式
