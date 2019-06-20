@@ -65,7 +65,7 @@ spring:
   application:
     name: cloudservice-config-dept-client
   datasource:
-    url: jdbc:mysql://localhost:3306/cloudservice1?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    url: jdbc:mysql://localhost:3306/cloudservice2?useUnicode=true&characterEncoding=UTF-8&useSSL=true
     username: root
     password: 123
     # 使用druid数据源
